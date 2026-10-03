@@ -42,7 +42,6 @@ button:focus-visible {
 }
 .skip-link:focus { top: 1rem; }
 
-/* HERO */
 .hero-section {
   background-image:
     linear-gradient(90deg, rgba(10,14,18,0.78) 0%, rgba(10,14,18,0.55) 40%, rgba(10,14,18,0.15) 70%, rgba(10,14,18,0.05) 100%),
@@ -117,11 +116,9 @@ button:focus-visible {
 }
 .hero-character-art img {
   max-width: 100%;
-  height: auto;
   border-radius: 6px;
 }
 
-/* ABOUT */
 .about-section {
   background-image: linear-gradient(rgba(241,232,208,0.92), rgba(241,232,208,0.92)), url('images/wand.jpg');
   background-size: cover;
@@ -142,7 +139,6 @@ button:focus-visible {
   border-radius: 6px;
 }
 
-/* CHARACTERS */
 .showcase-section {
   background-image: url('images/scar.jpg');
   background-size: cover;
@@ -245,7 +241,6 @@ footer {
 }
 footer a { color: var(--muted); }
 
-/* RESPONSIVE */
 @media (max-width: 991.98px) {
   .hero-nav { padding: 1rem 1.2rem; }
   .hero-links { flex-direction: column; gap: 0.9rem; padding: 1rem 0; }

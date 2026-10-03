@@ -117,3 +117,29 @@ body {
   color: white;
   font-weight: bold;
 }
+
+/* jQuery validation messages */
+label.error {
+  display: block;
+  text-align: left;
+  color: #ffb3b3;
+  font-size: 12px;
+  margin: -8px 0 10px 14px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.input-group input.error {
+  border: 2px solid #ff6b6b;
+}
+
+#message {
+  display: none;
+  padding: 10px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  color: white;
+}
+
+#message.fail { background-color: rgba(200, 50, 50, 0.8); }
+#message.ok { background-color: rgba(40, 160, 80, 0.8); }
