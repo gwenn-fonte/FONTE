@@ -65,7 +65,6 @@
         timer = setInterval(showLock, 500);
       }
 
-      // still locked after a page refresh
       if (Number(localStorage.getItem("lockUntil")) > Date.now()) {
         lockForm();
       }
